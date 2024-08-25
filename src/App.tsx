@@ -18,7 +18,7 @@ function App() {
   const [recipe, setRecipe] = useState<CocktailType | null>(null)
   const [value, setValue] = useState('1');
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };
 
